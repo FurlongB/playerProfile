@@ -1,0 +1,47 @@
+.DisplayPlayer {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 15%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.DisplayPlayer a{
+    text-decoration: none;
+ 
+ }
+
+.flexcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.flexcontainer > div{
+    width: 45%;
+    margin: 5px;
+}
+
+.img{
+    width: 75%;
+    float:right;
+}
+
+.close{
+    width: 15%;
+    float:right; 
+}
+
+
+@media (min-width: 600px) {
+    .DisplayPlayer {
+        width: 600px;
+        left: calc(50% - 250px);
+    }
+}

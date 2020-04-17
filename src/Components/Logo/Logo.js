@@ -1,0 +1,13 @@
+import React from 'react'
+
+import Logo from '../../assests/images/wolves.png'
+
+import classes from './Logo.css'
+
+const logo = (props)=>(
+    <div className={classes.Logo}>
+        <img src={Logo} alt="Wolves" />
+    </div>    
+);
+
+export default logo;

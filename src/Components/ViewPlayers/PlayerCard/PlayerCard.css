@@ -1,0 +1,28 @@
+.PlayerCard{
+    margin: 10px 10px;
+    width: 23%;
+    height: 380px;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    background-color:rgb(253, 232, 232);
+    border: 1px solid #eee;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 900px){
+    .PlayerCard{
+        width: 40%;
+        height: 210px;
+
+    }
+}
+
+@media (max-width: 500px){
+    .PlayerCard{
+        width: 40%;
+        height: 150px;
+
+    }
+}

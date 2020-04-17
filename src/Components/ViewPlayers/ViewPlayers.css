@@ -1,0 +1,12 @@
+.ViewPlayer{
+    margin: 100px auto;
+    width: 75%;
+    text-align: center;
+    background-color: cyan;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
